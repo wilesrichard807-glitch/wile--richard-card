@@ -1,67 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Professional Site</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        header {
-            background: #4CAF50;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        .container {
-            width: 90%;
-            margin: auto;
-            overflow: hidden;
-        }
-        section {
             padding: 20px;
-            background: white;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            color: #FFD700;
+            font-size: 14px;
         }
-        img {
-            max-width: 100%;
-            height: auto;
+        .contact-item {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        footer {
+        .contact-item span {
+            margin-left: 10px;
+        }
+        .buttons-section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .btn {
+            background-color: #FFD700;
+            color: #000;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background-color: #FFC107;
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+        .qr-section {
+            padding: 20px;
             text-align: center;
-            padding: 10px;
-            background: #333;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            border-top: 1px solid #FFD700;
         }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Professional Site</h1>
-    </header>
-    <div class="container">
-        <section>
-            <h2>About Me</h2>
-            <p>Passionate web developer with experience in creating modern and responsive designs.</p>
-            <img src="https://via.placeholder.com/600x300" alt="Placeholder Image">
-        </section>
-        <section>
-            <h2>Contact Information</h2>
-            <p>Email: contact@myprofessionalsite.com</p>
-            <p>Phone: +1 234 567 890</p>
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2026 My Professional Site. All rights reserved.</p>
-    </footer>
-</body>
+        .qr-code {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            border: 3px solid #FFD700;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .qr-code img {
+            width: 100%;
 </html>
