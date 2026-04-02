@@ -1,198 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Richard Wiles - Digital Card</title>
+
 <style>
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.card {
-    background: rgba(255,255,255,0.08);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 25px;
     text-align: center;
-    width: 320px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
-.profile-img {
-    width: 100px;
-    height: 100px;
+.container {
+    padding: 30px;
+}
+
+img {
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    object-fit: cover;
     border: 3px solid white;
+    object-fit: cover;
 }
 
 h1 {
-    margin: 10px 0 5px;
+    margin: 15px 0 5px;
 }
 
-.title {
+p {
     opacity: 0.8;
-    margin-bottom: 10px;
 }
 
-.contact {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.btn {
+.buttons a {
     display: block;
-    margin: 8px 0;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
+    margin: 10px auto;
+    padding: 12px;
+    width: 80%;
+    max-width: 300px;
+    background: #00c6ff;
     color: white;
-    background: linear-gradient(45deg, #1da1f2, #0d8ddb);
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
-.btn i {
-    margin-right: 8px;
-}
-
-.qr {
-    margin-top: 15px;
-    width: 120px;
-}
-
-.footer {
-    margin-top: 10px;
-    font-size: 12px;
-    opacity: 0.6;
+.buttons a:hover {
+    background: #0072ff;
 }
 </style>
 </head>
 
 <body>
 
-<div class="card">
+<div class="container">
+    <img src="RICHARD WILES OWNSELF.jpg" alt="Your Photo">
 
-<img src="<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+    <h1>Richard Wiles</h1>
+    <p>ICT Teacher</p>
 
-.card {
-    background: rgba(255,255,255,0.08);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 25px;
-    text-align: center;
-    width: 320px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-}
-
-.profile-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid white;
-}
-
-h1 {
-    margin: 10px 0 5px;
-}
-
-.title {
-    opacity: 0.8;
-    margin-bottom: 10px;
-}
-
-.contact {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.btn {
-    display: block;
-    margin: 8px 0;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
-    background: linear-gradient(45deg, #1da1f2, #0d8ddb);
-}
-
-.btn i {
-    margin-right: 8px;
-}
-
-.qr {
-    margin-top: 15px;
-    width: 120px;
-}
-
-.footer {
-    margin-top: 10px;
-    font-size: 12px;
-    opacity: 0.6;
-}
-</style>
-</head>
-
-<body>
-
-<div class="card">
-
-<img src="RICHARD WILES OWNSELF.jpg" class="profile-img">
-
-<h1>Richard Wiles</h1>
-<p class="title">ICT Educator</p>
-
-<div class="contact">
-    <p><i class="fas fa-phone"></i> +231 555 454 689 / 776 571 042</p>
-    <p><i class="fas fa-envelope"></i> wilesrichard807@gmail.com</p>
-</div>
-
-<a href="tel:+231555454689" class="btn"><i class="fas fa-phone"></i> Call</a>
-<a href="https://wa.me/231555454689" class="btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-<a href="mailto:wilesrichard807@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
-<a href="contact.vcf" class="btn"><i class="fas fa-user-plus"></i> Save Contact</a>
-
-<img src="qr-code.png" class="qr">
-
-<div class="footer">
-    Scan QR to view card
-</div>
-
-</div>
-
-</body>
-</html>" class="profile-img">
-
-<h1>Richard Wiles</h1>
-<p class="title">ICT Educator</p>
-
-<div class="contact">
-    <p><i class="fas fa-phone"></i> +231 555 454 689 / 776 571 042</p>
-    <p><i class="fas fa-envelope"></i> email:wilesrichard807@gmail.com</p>
-</div>
-
-<a href="tel:+231555454689" class="btn"><i class="fas fa-phone"></i> Call</a>
-<a href="https://wa.me/231555454689" class="btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-<a href="emailmailto:wilesrichard807@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
-<a href="contact.vcf" class="btn"><i class="fas fa-user-plus"></i> Save Contact</a>
-
-<img src="qr-code.png" class="qr">
-
-<div class="footer">
-    Scan QR to view card
-</div>
-
+    <div class="buttons">
+        <a href="tel:+231555454689">📞 Call Me</a>
+        <a href="https://wa.me/231555454689">💬 WhatsApp</a>
+        <a href="mailto:email: wilesrichard807@gmail.com">📧 Email Me</a>
+        <a href="RichardWiles.vcf" download>💾 Save Contact</a>
+    </div>
 </div>
 
 </body>
